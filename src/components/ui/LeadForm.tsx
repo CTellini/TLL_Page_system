@@ -102,7 +102,11 @@ const LeadForm: React.FC = () => {
       await new Promise(resolve => setTimeout(resolve, 1000));
       
       // Construir URL do Typebot com parâmetros
-      const typebotUrl = new URL('https://typebot.co/aplica-es-automatik-labs-e4owx7x');
+      const typebotUrl = new URL('<iframe
+  src="https://typebot.co/ag-ncia-aplica-es-tellcon-systems-1-q4g0pxr"
+  style="border: none; width: 100%; height: 600px"
+></iframe>
+');
       
       // Adicionar dados do formulário
       typebotUrl.searchParams.set('name', formData.name);
