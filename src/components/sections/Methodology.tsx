@@ -49,10 +49,10 @@ const Methodology: React.FC = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              Metodologia <GradientText>Automatik</GradientText> — o Caminho para Resultados
+              Metodologia <GradientText>Tellcon</GradientText> — Tecnologia com lucro e propósito
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              Nossa abordagem proprietária combina diagnóstico profundo, planejamento estratégico 
+              Nossa metodologia combina diagnóstico profundo, planejamento estratégico 
               e implementação gradual para transformar seu negócio com IA.
             </p>
           </div>
