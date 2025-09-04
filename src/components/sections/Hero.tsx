@@ -7,7 +7,7 @@ import { ArrowRight, Bot, Brain, Zap } from 'lucide-react';
 
 const benefitItems = [
   "Redução de 70% nos custos operacionais",
-  "Aumento de 45% na satisfação do cliente",
+  "Aumento de 45% na satisfação dos clientes",
   "Automação de 85% das tarefas repetitivas",
   "ROI positivo em 3 meses",
   "Disponibilidade 24/7",
