@@ -24,7 +24,7 @@ const projects: Project[] = [
   {
     title: "Super Time de Agentes",
     description: "Equipe completa de agentes de IA trabalhando em conjunto para maximizar resultados",
-    image: "/Super Time de Agentes.png",
+    image: "/Agente de liagacao com IA.png",
     details: {
       overview: "O Time de Agentes é uma solução revolucionária que permite que múltiplos agentes de IA trabalhem em conjunto, cada um com sua especialidade, para realizar tarefas complexas com precisão e eficiência incomparáveis.",
       features: [
@@ -87,9 +87,9 @@ const projects: Project[] = [
   {
     title: "Super Robô Assistente",
     description: "Assistente virtual inteligente para automação de processos e atendimento",
-    image: "/Criando um Super Roboo Assistente.png",
+    image: "/Assistente Pessoal.png",
     details: {
-      overview: "A NORA Faz Tudo é uma super agente criada em n8n, que entende texto, imagem e voz — e pode fazer demonstrações automáticas do seu trabalho de automação para impressionar leads e fechar contratos com mais facilidade.",
+      overview: "A NORA Faz Tudo, é uma super agente criada em n8n, que entende texto, imagem e voz — e pode fazer demonstrações automáticas do seu trabalho de automação para impressionar leads e fechar contratos com mais facilidade.",
       features: [
         "Mostra na prática como sua automação funciona",
         "Gera provas sociais para conquistar clientes",
@@ -113,7 +113,7 @@ const projects: Project[] = [
   {
     title: "Agente de Marketing",
     description: "Especialista em estratégias e execução de campanhas de marketing",
-    image: "/Agente de_Marketing _.png",
+    image: "/Agente de marketing digital.png",
     details: {
       overview: "Um agente especializado em marketing que automatiza e otimiza suas campanhas para máximo impacto.",
       features: [
@@ -137,11 +137,37 @@ const projects: Project[] = [
     }
   },
   {
-    title: "Agente de Ligação com IA",
-    description: "Automação inteligente de chamadas e follow-ups comerciais",
-    image: "/Agente de Ligacao com IA_.png",
+    title: "Agente de Automação Imobiliária",
+    description: "Automação inteligente para corretores e imobiliárias de chamadas e follow-ups comerciais",
+    image: "/Agente de Automação imobiliária.png",
     details: {
-      overview: "Um agente especializado em comunicação que automatiza e humaniza o processo de ligações e follow-ups.",
+      overview: "Um agente especializado em comunicação e venda que automatiza e humaniza o processo de ligações, follow-ups, agendamentos e atendimento a clientes.",
+      features: [
+        "Reconhecimento de voz natural",
+        "Personalização dinâmica do discurso",
+        "Gestão inteligente de objeções",
+        "Busca e integração com sistemas internos e externos",
+        "Agendamento automático"
+      ],
+      benefits: [
+        "Aumento de 150% na taxa de contato",
+        "Redução de 80% no tempo de follow-up",
+        "Maior satisfação do cliente",
+        "Escalabilidade imediata"
+      ],
+      integrations: [
+        "Sistema de Telefonia",
+        "CRM",
+        "Calendários",
+        "Ferramentas de Vendas"
+      ]
+    },
+{
+    title: "Agente de Automação a Clínicas e Consultórios",
+    description: "Automação inteligente de chamadas, agendamentos e follow-ups a pacientes",
+    image: "/Clinicas e Consultorios.png",
+    details: {
+      overview: "Um agente especializado em comunicação que automatiza e humaniza o processo de atendimento, agendamento e confirmações de consultas.",
       features: [
         "Reconhecimento de voz natural",
         "Personalização dinâmica do discurso",
