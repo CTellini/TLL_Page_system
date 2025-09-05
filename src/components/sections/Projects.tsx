@@ -31,9 +31,9 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Super Time de Agentes",
+    title: "Super Agente de Clínicas e Consultórios",
     description: "Equipe completa de agentes de IA trabalhando em conjunto para maximizar resultados",
-    image: "/Super Time de Agentes.png",
+    image: "/Clinicas e consultorios.png",
     category: "Automação Avançada",
     tags: ["Multi-Agent", "Coordenação", "Produtividade"],
     details: {
@@ -47,7 +47,7 @@ const projects: Project[] = [
         "Aprendizado colaborativo contínuo"
       ],
       benefits: [
-        "Aumento exponencial na produtividade",
+        "Aumento exponencial na produtividade e atendimento",
         "Redução significativa de erros",
         "Escalabilidade instantânea",
         "Resultados consistentes e de alta qualidade",
@@ -61,20 +61,20 @@ const projects: Project[] = [
       ],
       examples: [
         {
-          title: "Exemplo: Produção de Conteúdo em Vídeo",
+          title: "Exemplo: Agendamento de consultas por especialista",
           steps: [
-            "Agente Roteirista: Desenvolve o roteiro e narrativa",
-            "Agente Designer: Cria elementos visuais e gráficos",
-            "Agente Editor: Monta e edita o vídeo",
-            "Agente Revisor: Garante qualidade e coerência"
+            "Agente Agendamento: Agenda e faz o controle de presença",
+            "Agente Relacionamento: Faz atendimento e esclarece primieras dúvidas",
+            "Agente Administrativo: Cuida da cobrança e gestão dos recebimentos",
+            "Agente Marketing: Garante atendimento e acompanhamentos posteriores"
           ]
         }
       ],
       integrations: [
-        "Ferramentas de Gestão de Projetos",
-        "Plataformas de Comunicação",
-        "Sistemas de Automação",
-        "Software de Análise de Dados"
+        "Ferramentas de Gestão de Clínicas e Consultórios",
+        "Integração com plataformas de planos de saúde e convênios",
+        "Sistemas de Automação de Pacientes",
+        "Software de Atendimentos"
       ]
     }
   },
