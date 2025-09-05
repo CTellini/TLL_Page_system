@@ -162,7 +162,7 @@ const projects: Project[] = [
         "Ferramentas de Vendas"
       ]
     },
-{
+    {
     title: "Agente de Automação a Clínicas e Consultórios",
     description: "Automação inteligente de chamadas, agendamentos e follow-ups a pacientes",
     image: "/Clinicas e Consultorios.png",
