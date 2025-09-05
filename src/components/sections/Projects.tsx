@@ -111,32 +111,6 @@ const projects: Project[] = [
     }
   },
   {
-    title: "Agente de Marketing",
-    description: "Especialista em estratégias e execução de campanhas de marketing",
-    image: "/Agente de marketing digital.png",
-    details: {
-      overview: "Um agente especializado em marketing que automatiza e otimiza suas campanhas para máximo impacto.",
-      features: [
-        "Criação automática de conteúdo",
-        "Segmentação inteligente",
-        "A/B testing automático",
-        "Análise de performance"
-      ],
-      benefits: [
-        "Aumento de 200% no engajamento",
-        "Redução de 60% no tempo de execução",
-        "Maior consistência nas campanhas",
-        "Otimização contínua"
-      ],
-      integrations: [
-        "Redes Sociais",
-        "Plataformas de Email Marketing",
-        "CMS",
-        "Analytics"
-      ]
-    }
-  },
-  {
     title: "Agente de Automação Imobiliária",
     description: "Automação inteligente para corretores e imobiliárias de chamadas e follow-ups comerciais",
     image: "/Agente de Automação imobiliária.png",
