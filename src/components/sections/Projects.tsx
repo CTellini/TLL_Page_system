@@ -81,7 +81,7 @@ const projects: Project[] = [
   {
     title: "Super Analista de Marketing",
     description: "IA especializada em análise e otimização de campanhas de marketing digital",
-    image: "/Super Analista_de Marketing_.png",
+    image: "/Agente de marketing 2.png",
     category: "Marketing Intelligence",
     tags: ["Analytics", "Otimização", "ROI"],
     details: {
