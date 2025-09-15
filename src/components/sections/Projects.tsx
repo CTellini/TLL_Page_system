@@ -155,11 +155,11 @@ const projects: Project[] = [
   {
     title: "Agente de Marketing",
     description: "Especialista em estratégias e execução de campanhas de marketing",
-    image: "/Agente de_Marketing _.png",
+    image: "/Asistente de Gestão de processos.png",
     category: "Marketing Automation",
     tags: ["Campanhas", "Conteúdo", "Performance"],
     details: {
-      overview: "Um agente especializado em marketing que automatiza e otimiza suas campanhas para máximo impacto, criando conteúdo personalizado e analisando performance continuamente.",
+      overview: "Um agente especializado em analise de marketing, que automatiza e otimiza suas campanhas para máximo impacto, criando conteúdo personalizado e analisando performance continuamente.",
       features: [
         "Criação automática de conteúdo",
         "Segmentação inteligente",
@@ -192,7 +192,7 @@ const projects: Project[] = [
   {
     title: "Agente de Ligação com IA",
     description: "Automação inteligente de chamadas e follow-ups comerciais",
-    image: "/Agente de Ligacao com IA_.png",
+    image: "/Agente de atendimento.png",
     category: "Sales Automation",
     tags: ["Voz", "Follow-up", "Conversão"],
     details: {
