@@ -155,7 +155,7 @@ const projects: Project[] = [
   {
     title: "Agente de Marketing",
     description: "Especialista em estratégias e execução de campanhas de marketing",
-    image: "/Asistente_gest_processos.png",
+    image: "/Assistente gest processos.png",
     category: "Marketing Automation",
     tags: ["Campanhas", "Conteúdo", "Performance"],
     details: {
