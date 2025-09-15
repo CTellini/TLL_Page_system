@@ -118,11 +118,11 @@ const projects: Project[] = [
   {
     title: "Super Robô Assistente",
     description: "Assistente virtual inteligente para automação de processos e atendimento",
-    image: "/Criando um Super Roboo Assistente.png",
+    image: "/Assistente pessoal IA.png",
     category: "Assistente Virtual",
     tags: ["Multimodal", "Automação", "Demonstração"],
     details: {
-      overview: "O James Faz Tudo é um super agente criado em n8n, que entende texto, imagem e voz — e pode fazer demonstrações automáticas do seu trabalho de automação para impressionar leads e fechar contratos com mais facilidade.",
+      overview: "A NORA Faz Tudo é uma super agente criada em n8n, que entende texto, imagem e voz — e pode fazer demonstrações automáticas do seu trabalho de automação para impressionar leads e fechar contratos com mais facilidade.",
       features: [
         "Mostra na prática como sua automação funciona",
         "Gera provas sociais para conquistar clientes",
@@ -155,7 +155,7 @@ const projects: Project[] = [
   {
     title: "Agente de Marketing",
     description: "Especialista em estratégias e execução de campanhas de marketing",
-    image: "/Asistente de Gestão de processos.png",
+    image: "/Asistente_gest_processos.png",
     category: "Marketing Automation",
     tags: ["Campanhas", "Conteúdo", "Performance"],
     details: {
