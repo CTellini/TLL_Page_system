@@ -34,8 +34,7 @@ const Header: React.FC = () => {
         <div className="flex items-center">
           <a href="#" className="flex items-center">
             <div className="text-2xl font-display font-bold">
-              <GradientText>TELLCON</GradientText>
-              <span className="ml-1">Systems</span>
+              <GradientText>TELLCON SYSTEMS</GradientText>
             </div>
           </a>
         </div>
@@ -56,7 +55,7 @@ const Header: React.FC = () => {
             className="ml-4"
             onClick={() => window.location.href = '#apply'}
           >
-            Aplicar Agora
+            Contato agora
           </Button>
         </nav>
 
