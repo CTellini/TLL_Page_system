@@ -49,7 +49,7 @@ const Methodology: React.FC = () => {
               </span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-              Metodologia <GradientText>Tellcon</GradientText> Systems
+              Metodologia <GradientText>Tellcon Systems</GradientText>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
               Nossa metodologia combina diagnóstico profundo, planejamento estratégico 
