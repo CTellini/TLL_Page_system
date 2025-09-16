@@ -16,7 +16,9 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-dark-800/50 mt-10 pt-10">
           <p className="text-white/50 text-sm text-center">
-            © {new Date().getFullYear()} Tellcon Systems é uma divisão da Tellcon Business Network Ltda. CNPJ: 04.918.985/0001-90 - Todos os direitos reservados.
+            © {new Date().getFullYear()} Tellcon Systems é uma divisão da Tellcon Business Network Ltda. 
+            CNPJ: 04.918.985/0001-90 
+            Todos os direitos reservados.
           </p>
         </div>
       </Container>
