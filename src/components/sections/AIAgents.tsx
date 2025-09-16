@@ -109,7 +109,7 @@ const AIAgents: React.FC = () => {
               </div>
 
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
-                Agentes de IA que <GradientText>Pensam e Agem</GradientText> Como Humanos
+                Agentes de IA que <GradientText>Pensam e Agem</GradientText> como Humanos
               </h2>
               <p className="text-xl text-white/80 mb-8">
                 Desenvolvemos agentes de IA com uma camada exclusiva de humanização, 
