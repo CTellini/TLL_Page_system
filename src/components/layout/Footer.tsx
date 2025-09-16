@@ -7,17 +7,16 @@ const Footer: React.FC = () => {
       <Container>
         <div className="text-center">
           <div className="text-2xl font-display font-bold mb-4">
-            <GradientText>TELLCON</GradientText>
-            <span className="ml-1">Systems</span>
+            <GradientText>TELLCON Systems</GradientText>
           </div>
           <p className="text-white/70 max-w-sm mx-auto">
-            O futuro dos negócios começa aqui.
+            O futuro dos negócios começa aqui !
           </p>
         </div>
 
         <div className="border-t border-dark-800/50 mt-10 pt-10">
           <p className="text-white/50 text-sm text-center">
-            © {new Date().getFullYear()} Tellcon Systems - Todos os direitos reservados.
+            © {new Date().getFullYear()} Tellcon Systems é uma divisão da Tellcon Business Network Ltda. CNPJ: 04.918.985/0001-90 - Todos os direitos reservados.
           </p>
         </div>
       </Container>
