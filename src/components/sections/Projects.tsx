@@ -79,6 +79,54 @@ const projects: Project[] = [
     }
   },
   {
+    title: "Super Agente para escritórios de Advocacia",
+    description: "Equipe completa de agentes de IA trabalhando em conjunto otimizar recurosos e maximizar resultados",
+    image: "/Agente juridico 2.png",
+    category: "Automação Avançada",
+    tags: ["Multi-Agent", "Coordenação", "Produtividade"],
+    details: {
+      overview: "O Agente Jurídico é uma solução revolucionária que permite que múltiplos agentes de IA trabalhem em conjunto, cada um com sua especialidade, para realizar tarefas complexas com precisão e eficiência incomparáveis.",
+      features: [
+        "Coordenação automática entre agentes especializados",
+        "Distribuição inteligente de tarefas",
+        "Comunicação fluida entre agentes",
+        "Monitoramento em tempo real do progresso",
+        "Escalabilidade dinâmica da equipe",
+        "Aprendizado colaborativo contínuo"
+      ],
+      benefits: [
+        "Aumento exponencial na produtividade e atendimento",
+        "Redução significativa de erros",
+        "Escalabilidade instantânea",
+        "Resultados consistentes e de alta qualidade",
+        "Economia de recursos humanos",
+        "Disponibilidade 24/7"
+      ],
+      metrics: [
+        { label: "Produtividade", value: "+300%", improvement: "vs. processos manuais" },
+        { label: "Precisão", value: "99.7%", improvement: "taxa de acerto" },
+        { label: "Velocidade", value: "10x", improvement: "mais rápido" }
+      ],
+      examples: [
+        {
+          title: "Exemplo: Agendamento de reuniões por advogado",
+          steps: [
+            "Agente Agendamento: Agenda e faz o controle de presença",
+            "Agente Relacionamento: Faz atendimento e esclarece primieras dúvidas",
+            "Agente Administrativo: Cuida da cobrança e gestão dos recebimentos",
+            "Agente Marketing: Garante atendimento e acompanhamentos posteriores"
+          ]
+        }
+      ],
+      integrations: [
+        "Ferramentas de Gestão de escritórios de Advocacia",
+        "Integração com plataformas de internas",
+        "Integração com sites para acompanhamento de processos",
+        "Contabilização de atividades por caso por cliente"
+      ]
+    }
+  },
+  {
     title: "Super Analista de Marketing",
     description: "IA especializada em análise e otimização de campanhas de marketing digital",
     image: "/Agente de marketing 2.png",
