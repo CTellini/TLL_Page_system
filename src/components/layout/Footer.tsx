@@ -3,7 +3,7 @@ import Container from '../ui/Container';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-medium-950 border-t border-medium-800/50 py-16">
+    <footer className="bg-dark-950 border-t border-dark-800/50 py-16">
       <Container>
         <div className="text-center">
           <div className="text-2xl font-display font-bold mb-4">
@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        <div className="border-t border-medium-800/50 mt-10 pt-10">
+        <div className="border-t border-dark-800/50 mt-10 pt-10">
           <p className="text-white text-sm text-center">
             © {new Date().getFullYear()} Tellcon Systems é uma divisão da Tellcon Business Network Ltda. </p>
           
