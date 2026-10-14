@@ -4,7 +4,7 @@ import Container from '../ui/Container';
 import GradientText from '../ui/GradientText';
 import ProjectCard from '../ui/ProjectCard';
 import Modal from '../ui/Modal';
-import { ArrowRight, Filter, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 type Project = {
   title: string;

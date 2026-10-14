@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Container from '../ui/Container';
 import GradientText from '../ui/GradientText';
-import { MessageSquare, Users, Settings, Layers, ArrowRight, Bot, BrainCircuit, Workflow, Network } from 'lucide-react';
+import { ArrowRight, Bot, BrainCircuit, Workflow, Network } from 'lucide-react';
 
 const Services: React.FC = () => {
   const servicesRef = useRef<HTMLDivElement>(null);
@@ -19,13 +19,14 @@ const Services: React.FC = () => {
       { threshold: 0.1 }
     );
     
-    if (servicesRef.current) {
-      observer.observe(servicesRef.current);
+    const currentRef = servicesRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
     }
     
     return () => {
-      if (servicesRef.current) {
-        observer.unobserve(servicesRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
   }, []);

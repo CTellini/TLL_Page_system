@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import GradientText from '../ui/GradientText';
 import { Menu, X } from 'lucide-react';
 import Container from '../ui/Container';
 import Button from '../ui/Button';
@@ -109,14 +110,6 @@ const Header: React.FC = () => {
         </div>
       )}
     </header>
-  );
-};
-
-const GradientText = ({ children, className = '' }) => {
-  return (
-    <span className={`bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent ${className}`}>
-      {children}
-    </span>
   );
 };
 

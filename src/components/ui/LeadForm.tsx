@@ -55,7 +55,7 @@ const LeadForm: React.FC = () => {
     
     if (!formData.phone.trim()) {
       newErrors.phone = 'Telefone é obrigatório';
-    } else if (!/^[\d\s\(\)\-\+]{10,}$/.test(formData.phone.replace(/\s/g, ''))) {
+    } else if (!/^[\d\s()+-]{10,}$/.test(formData.phone.replace(/\s/g, ''))) {
       newErrors.phone = 'Telefone inválido';
     }
     
@@ -101,12 +101,7 @@ const LeadForm: React.FC = () => {
       // Simular envio (aqui você pode integrar com sua API)
       await new Promise(resolve => setTimeout(resolve, 1000));
       
-      // Construir URL do Typebot com parâmetros
-      const typebotUrl = new URL('<iframe
-  src="https://typebot.co/ag-ncia-aplica-es-tellcon-systems-1-q4g0pxr"
-  style="border: none; width: 100%; height: 600px"
-></iframe>
-');
+      const typebotUrl = new URL('https://typebot.co/ag-ncia-aplica-es-tellcon-systems-1-q4g0pxr');
       
       // Adicionar dados do formulário
       typebotUrl.searchParams.set('name', formData.name);

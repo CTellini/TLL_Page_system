@@ -1,4 +1,5 @@
 import React from 'react';
+import GradientText from '../ui/GradientText';
 import Container from '../ui/Container';
 
 const Footer: React.FC = () => {
@@ -22,14 +23,6 @@ const Footer: React.FC = () => {
         </div>
       </Container>
     </footer>
-  );
-};
-
-const GradientText = ({ children, className = '' }) => {
-  return (
-    <span className={`bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent ${className}`}>
-      {children}
-    </span>
   );
 };
 

@@ -26,6 +26,8 @@ export default {
         },
         // Dark - Tons escuros profissionais
         dark: {
+          '600': '#2A2A2A',
+          '700': '#222222',
           '800': '#1A1A1A',
           '900': '#111111',
           '950': '#0B0B0B',

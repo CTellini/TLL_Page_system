@@ -34,38 +34,6 @@ const AIAgents: React.FC = () => {
 
   const [messages, setMessages] = useState<Message[]>([]);
   
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('opacity-100');
-            entry.target.classList.remove('opacity-0', 'translate-y-10');
-            if (!chatStartedRef.current) {
-              startChat();
-              chatStartedRef.current = true;
-            }
-          } else {
-            // Reset chat when component is out of view
-            setMessages([]);
-            chatStartedRef.current = false;
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-    
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-    
-    return () => {
-      if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
-
   const startChat = () => {
     let currentIndex = 0;
     
@@ -87,6 +55,39 @@ const AIAgents: React.FC = () => {
     
     addMessage();
   };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('opacity-100');
+            entry.target.classList.remove('opacity-0', 'translate-y-10');
+            if (!chatStartedRef.current) {
+              startChat();
+              chatStartedRef.current = true;
+            }
+          } else {
+            setMessages([]);
+            chatStartedRef.current = false;
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    
+    const currentRef = sectionRef.current;
+    if (currentRef) {
+      observer.observe(currentRef);
+    }
+    
+    return () => {
+      if (currentRef) {
+        observer.unobserve(currentRef);
+      }
+    };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <section className="py-20 md:py-32 relative overflow-hidden">
