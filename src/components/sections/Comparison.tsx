@@ -168,6 +168,9 @@ const Comparison: React.FC = () => {
                     </div>
                     <div className="p-6 text-center font-semibold text-lg">
                       Tellcon Systems
+                      <div className="text-sm text-white/60 font-normal">
+                        (Nossa Agência)
+                      </div>
                     </div>
                   </div>
 

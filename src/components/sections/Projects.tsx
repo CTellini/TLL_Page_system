@@ -79,57 +79,9 @@ const projects: Project[] = [
     }
   },
   {
-    title: "Super Agente para escritórios de Advocacia",
-    description: "Equipe completa de agentes de IA trabalhando em conjunto otimizar recurosos e maximizar resultados",
-    image: "/Agente juridico 2.png",
-    category: "Automação Avançada",
-    tags: ["Multi-Agent", "Coordenação", "Produtividade"],
-    details: {
-      overview: "O Agente Jurídico é uma solução revolucionária que permite que múltiplos agentes de IA trabalhem em conjunto, cada um com sua especialidade, para realizar tarefas complexas com precisão e eficiência incomparáveis.",
-      features: [
-        "Coordenação automática entre agentes especializados",
-        "Distribuição inteligente de tarefas",
-        "Comunicação fluida entre agentes",
-        "Monitoramento em tempo real do progresso",
-        "Escalabilidade dinâmica da equipe",
-        "Aprendizado colaborativo contínuo"
-      ],
-      benefits: [
-        "Aumento exponencial na produtividade e atendimento",
-        "Redução significativa de erros",
-        "Escalabilidade instantânea",
-        "Resultados consistentes e de alta qualidade",
-        "Economia de recursos humanos",
-        "Disponibilidade 24/7"
-      ],
-      metrics: [
-        { label: "Produtividade", value: "+300%", improvement: "vs. processos manuais" },
-        { label: "Precisão", value: "99.7%", improvement: "taxa de acerto" },
-        { label: "Velocidade", value: "10x", improvement: "mais rápido" }
-      ],
-      examples: [
-        {
-          title: "Exemplo: Agendamento de reuniões por advogado",
-          steps: [
-            "Agente Agendamento: Agenda e faz o controle de presença",
-            "Agente Relacionamento: Faz atendimento e esclarece primieras dúvidas",
-            "Agente Administrativo: Cuida da cobrança e gestão dos recebimentos",
-            "Agente Marketing: Garante atendimento e acompanhamentos posteriores"
-          ]
-        }
-      ],
-      integrations: [
-        "Ferramentas de Gestão de escritórios de Advocacia",
-        "Integração com plataformas de internas",
-        "Integração com sites para acompanhamento de processos",
-        "Contabilização de atividades por caso por cliente"
-      ]
-    }
-  },
-  {
     title: "Super Analista de Marketing",
     description: "IA especializada em análise e otimização de campanhas de marketing digital",
-    image: "/Agente de marketing 2.png",
+    image: "/Super Analista_de Marketing _.png",
     category: "Marketing Intelligence",
     tags: ["Analytics", "Otimização", "ROI"],
     details: {
@@ -166,11 +118,11 @@ const projects: Project[] = [
   {
     title: "Super Robô Assistente",
     description: "Assistente virtual inteligente para automação de processos e atendimento",
-    image: "/Assistente pessoal IA.png",
+    image: "/Criando um Super Roboo Assistente.png",
     category: "Assistente Virtual",
     tags: ["Multimodal", "Automação", "Demonstração"],
     details: {
-      overview: "A NORA Faz Tudo é uma super agente criada em n8n, que entende texto, imagem e voz — e pode fazer demonstrações automáticas do seu trabalho de automação para impressionar leads e fechar contratos com mais facilidade.",
+      overview: "O James Faz Tudo é um super agente criado em n8n, que entende texto, imagem e voz — e pode fazer demonstrações automáticas do seu trabalho de automação para impressionar leads e fechar contratos com mais facilidade.",
       features: [
         "Mostra na prática como sua automação funciona",
         "Gera provas sociais para conquistar clientes",
@@ -203,11 +155,11 @@ const projects: Project[] = [
   {
     title: "Agente de Marketing",
     description: "Especialista em estratégias e execução de campanhas de marketing",
-    image: "/Assistente gest processos.png",
+    image: "/Agente de_Marketing _.png",
     category: "Marketing Automation",
     tags: ["Campanhas", "Conteúdo", "Performance"],
     details: {
-      overview: "Um agente especializado em analise de marketing, que automatiza e otimiza suas campanhas para máximo impacto, criando conteúdo personalizado e analisando performance continuamente.",
+      overview: "Um agente especializado em marketing que automatiza e otimiza suas campanhas para máximo impacto, criando conteúdo personalizado e analisando performance continuamente.",
       features: [
         "Criação automática de conteúdo",
         "Segmentação inteligente",
@@ -240,7 +192,7 @@ const projects: Project[] = [
   {
     title: "Agente de Ligação com IA",
     description: "Automação inteligente de chamadas e follow-ups comerciais",
-    image: "/Agente de atendimento.png",
+    image: "/Agente de Ligacao com IA_.png",
     category: "Sales Automation",
     tags: ["Voz", "Follow-up", "Conversão"],
     details: {
